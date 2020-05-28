@@ -3,10 +3,6 @@ allow init vendor_configs_file:dir mounton;
 
 # Allow init to chown/chmod on pseudo files in /sys
 allow init {
-<<<<<<< HEAD
-=======
-    sysfs_fod
->>>>>>> d9b6848... sdm845-common: sepolicy: Allow init to setattr sysfs_fod
     sysfs_fpc_proximity
     sysfs_graphics
 }:file { open read setattr };
