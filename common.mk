@@ -26,8 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 # Properties
--include $(LOCAL_PATH)/system_prop.mk
-
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # VNDK
